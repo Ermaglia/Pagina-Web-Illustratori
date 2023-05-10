@@ -1,0 +1,137 @@
+body {
+    background-color: #FDFF91;
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    
+
+}
+header {
+    font-weight: bold;
+height:100px;
+position: fixed;
+width: 100%;
+z-index: 1;
+color: black;
+text-decoration: none;
+}
+h1{
+    font-family:'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+}
+h1.home {
+    text-decoration: none;
+    color: black;
+}
+h1.contatti {
+    text-decoration: none;
+    color: black;
+}
+h1.home a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+h1.contatti a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+div.testata  {
+    background-color: #FDFF91;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom:0%;
+    height: 100px;
+    z-index: 1;
+}
+div.elenco {
+    background-color: #FDFF91;
+    position: relative;
+    height: 40px;
+    padding: 60px;
+    width: 100%;
+    justify-content: center;
+}
+a.elenco {
+color: black;
+font-family:'Inter', sans-serif ;
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 52px;
+align-items: center;
+text-align: center;
+padding-top: 20%;
+}
+
+img {
+    max-width: 100%;
+    display:block;
+    
+}
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 180px 16px 60px 16px;
+    text-decoration: none;
+}
+main .contenuto {
+    display: flex;
+    gap: 32px;
+}
+main .contenuto ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 50%;
+}
+main .contenuto li {
+    padding-bottom: 32px;
+}
+main .contenuto img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 16px;
+}
+main .contenuto li {
+    font-size: 24px;
+}
+main .contenuto li a {
+    text-decoration: none;
+    color:black;
+}
+main .contenuto li a:hover {
+  text-decoration: underline;
+  color: blueviolet;  
+}
+
+.elenco {
+    text-align: center;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    font-size: 200%;
+    justify-content: space-around(50%);
+}
+
+@media (max-width:600px) {
+    main .contenuto {
+        flex-direction: column;
+    }
+    main .contenuto ul {
+        width: 100%;
+    }
+}

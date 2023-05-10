@@ -1,0 +1,97 @@
+body {
+    background-color: #FF7575;
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    
+
+}
+main div.immagini img {
+    object-fit: cover;
+    width: 320px;
+    height: auto;
+}
+main div.immagini {
+    padding: 0px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 5%;
+}
+
+header {
+    font-weight: bold;
+height:100px;
+position: fixed;
+width: 100%;
+z-index: 1;
+color: black;
+text-decoration: none;
+}
+h1{
+    font-family:'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+}
+h1.home {
+    text-decoration: none;
+    color: black;
+}
+h1.contatti {
+    text-decoration: none;
+    color: black;
+}
+h1.home a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+h1.contatti a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+div.testata  {
+    background-color: #FF7575;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom:0%;
+    height: 100px;
+    z-index: 1;
+}
+a.nome {
+    color: black;
+    text-align: center;
+    display: grid;
+    padding: 0px;
+    margin:0px;
+    justify-content: space-around(50%);
+    padding-top: 10%;
+    text-shadow: rgba(0, 0, 0, 0.363) 2px 2px;
+    font-family:'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size:60px;
+    line-height: 52px;
+}
+
+p.boxtesto {
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+font-size: 30px;
+color: black;
+line-height: 50px;
+
+}
